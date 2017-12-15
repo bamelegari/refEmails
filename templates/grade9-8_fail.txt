@@ -1,0 +1,16 @@
+Hello NAME, this is Bryce. I instructed the referee clinic you attended recently.
+I wanted to inform you that you have not passed your tests - each test required at least 40/50 to pass. You scored G9_SCORE/50 on your grade 9 test and G8_SCORE/50 on your grade 8 test. I'd like you to take a look at the following questions that you missed:
+
+G9_QUESTIONS
+
+G8_QUESTIONS
+
+NOTES
+
+(if 29 is on your grade 8 list, I essentially don't care that you got it wrong, and I did not count it against your score. That question is extremely ambiguous as to what they mean by "outstretched". Just take note)
+
+Attached are copies of the test questions for your reference.
+In order to complete your testing process, you will need to attend an in-person review session with me at a later date -- expect an email regarding it later.
+NOTE: this does not necessarily mean you cannot referee younger games in the interim -- you will need to speak with Dave about that.
+
+Let me know if you have any questions!

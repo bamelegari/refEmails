@@ -1,0 +1,17 @@
+normal operation:
+	pass
+	almost
+	fail
+	all g9 correct
+	all g8 correct
+	all both correct
+	2 emails for 1 student
+	multiple students in 1 session
+
+input sanitation
+	invalid email
+	invalid g9 score
+	invalid g8 score
+	
+	repeat g9 wrong question (TODO)
+	repeat g8 wrong question (TODO)

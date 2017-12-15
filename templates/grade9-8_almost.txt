@@ -1,0 +1,18 @@
+Hello NAME, this is Bryce. I instructed the referee clinic you attended recently.
+I wanted to inform you that you have almost passed your tests - each test required at least 40/50 to pass. You scored G9_SCORE/50 on your grade 9 test and G8_SCORE/50 on your grade 8 test. These scores are close enough that I don't necessarily require a full re-take of the test. I'd like you to take a look at the following questions that you missed:
+
+G9_QUESTIONS
+
+G8_QUESTIONS
+
+NOTES
+
+(if 29 is on your grade 8 list, I essentially don't care that you got it wrong, and I did not count it against your score. That question is extremely ambiguous as to what they mean by "outstretched". Just take note)
+
+Attached are copies of the test questions for your reference.
+
+In order to complete your testing process, you have 2 options:
+1) Talk to me in person at our field day or some other time. We will go over the questions and I'll make sure you've got an understanding of them.
+2) Email me the correct answer and a short explanation for each question you got wrong. (If you can't quite get all of them, that's alright. As long as it brings you under -11). If you passed one of your tests, you don't necessarily have to worry about those questions (although feel free to ask about them.)
+Usually what we do is the first option, and it is much more relaxed then the second one, but I figured if somebody wants to go the extra mile, I'd give the option. 
+If you have any questions, let me know!
