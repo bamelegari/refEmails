@@ -7,6 +7,8 @@ from email.MIMEBase import MIMEBase
 from email import encoders
 import getpass
 import re
+import os
+import mysql.connector
 
 EMAIL = "bamelegari@alaska.edu"
 FILE_PREFIX = "templates/grade9-8_"
@@ -98,11 +100,11 @@ def sendEmail(msg, addrs):
 	print("Handshaking...")
 	s = smtplib.SMTP('smtp.gmail.com', 587)
 	s.starttls()
-	print("authenticating...")
+	print("Authenticating...")
 	s.login(EMAIL, pwd)
-	print("sending email...")
+	print("Sending email...")
 	s.sendmail(EMAIL, addrs, msg.as_string())
-	print("closing connection")
+	print("Closing connection.")
 	s.quit()
 	return
 
@@ -118,11 +120,12 @@ def sendFollowup(addrs):
 	msg['Subject'] = "Referee certification follow-up"
 	msg.attach(MIMEText(getTemplateString("followup"), 'plain'))
 
-	a = prepareForAttachment("GO_registration&classes.pdf")
+	a = prepareForAttachment("GO_register.pdf")
 	msg.attach(a)
 	sendEmail(msg, addrs)
 	return
 
+#def mysqlStart():
 
 def main():
 	name = raw_input("Enter student first name: ")
@@ -197,8 +200,8 @@ def main():
 
 	msg.attach(MIMEText(emailBody, 'plain'))
 
-	g9Attachment = prepareForAttachment("2016-17_grade9Test.pdf")
-	g8Attachment = prepareForAttachment("2016-17_grade8Test.pdf")
+	g9Attachment = prepareForAttachment("grade9Test.pdf")
+	g8Attachment = prepareForAttachment("grade8Test.pdf")
 	msg.attach(g9Attachment)
 	msg.attach(g8Attachment)
 
